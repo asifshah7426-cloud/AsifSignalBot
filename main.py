@@ -213,9 +213,10 @@ async def psychology_cmd(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         "🚫 Never trade to prove yourself. Trade to make money.\n\n"
         "💸 You don't blow up from one bad trade. You bleed from trading after it.\n\n"
         "🔍 Always check blind spots — map every POI on 15M, 1H, 4H.\n\n"
-        "🎯 Forget perfect entry. If momentum is strong and Rexcept:
-        await update.message.reply_text("❌ Invalid price. Please enter a number like: 3285.50")
-        return ASK_ENTRY
+        "🎯 Forget perfect entry. If momentum is strong and setup aligns — execute!\n\n"
+        "💪 Discipline + Patience = Consistent Profits!",
+        parse_mode='Markdown'
+    )
 
 async def ask_sl(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     uid = update.effective_user.id
